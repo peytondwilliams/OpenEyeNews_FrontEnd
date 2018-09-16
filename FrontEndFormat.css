@@ -4,7 +4,7 @@ h1 {
     padding: 0;
     text-align: center;
     color: white;
-    font-family: Impact;
+    font-family: "Abril Fatface";
     padding: 10px;
     border-radius: 20px;
 }
@@ -42,4 +42,26 @@ ul li {
     bottom: 100px;
     background: linear-gradient(90deg, blue, red);
     border-radius: 100px;
+    z-index: 9;
 }
+
+#logo {
+    position: relative;
+    display: inline-block;
+    left: 810px;
+    bottom: 187px;
+    z-index: 10;
+    height: 100px;
+    width: 100px;
+}
+
+#verticalLine {
+    position: relative;
+    display: inline-block;
+    left: 275px;
+    bottom: 310px;
+    height: 350px;
+    width: 10px;
+
+}
+
