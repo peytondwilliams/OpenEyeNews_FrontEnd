@@ -44,6 +44,7 @@ ul li {
     background: linear-gradient(90deg, blue, red);
     border-radius: 100px;
     z-index: 9;
+    visibility: hidden;
 }
 
 #logo {
@@ -54,6 +55,14 @@ ul li {
     z-index: 10;
     height: 100px;
     width: 100px;
+    visibility: hidden;
+}
+
+#logoMain {
+    position: absolute;
+    left: 95px;
+    height: 60px;
+    width: 60px;
 }
 
 #verticalLine {
@@ -68,5 +77,15 @@ ul li {
 .topics a {
     color: #6f666c;
     text-decoration: none;
+}
+
+#thingy {
+    position: relative;
+    display: inline-block;
+    left: 240px;
+    bottom: 270px;
+    z-index: 10;
+    height: 500px;
+    width: 1300px;
 }
 
