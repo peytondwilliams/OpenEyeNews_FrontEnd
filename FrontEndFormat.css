@@ -31,6 +31,7 @@ ul li {
     padding: 10px 20px;
     border-right: 1px solid #6f666c;
     border-left: 1px solid #6f666c;
+    text-decoration: none;
 }
 
 #webSpectrum2 {
@@ -62,6 +63,10 @@ ul li {
     bottom: 310px;
     height: 350px;
     width: 10px;
+}
 
+.topics a {
+    color: #6f666c;
+    text-decoration: none;
 }
 
