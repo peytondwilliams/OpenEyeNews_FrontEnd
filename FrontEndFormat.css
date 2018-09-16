@@ -27,16 +27,19 @@ ul {
 
 ul li {
     color: #6f666c;
-    font-family: Arial;
+    font-family: "Josefin Slab";
     padding: 10px 20px;
     border-right: 1px solid #6f666c;
     border-left: 1px solid #6f666c;
 }
 
-#webSpectrum {
+#webSpectrum2 {
     position: relative;
+    color: blue;
     display: inline-block;
     width: 1200px;
     left: 20px;
     bottom: 100px;
+    background: linear-gradient(90deg, blue, red);
+    border-radius: 100px;
 }
